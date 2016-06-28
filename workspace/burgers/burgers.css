@@ -1,0 +1,108 @@
+body {
+font-family: "Century Gothic"; 
+background-image:url("../afbeeldingen/bg-image.jpg");
+text-align: center;
+background-repeat:repeat;
+background-size:100%;
+
+}
+
+.header {
+    width:100%;
+    
+    
+}
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.nav {
+    height:40px;
+    background-color:#ac7339;
+    width:970px;
+    border:solid;
+    border-width:2px;
+    margin:auto;
+    padding:10px;
+    border-radius: 10px;
+    
+    
+    
+    
+}
+
+.nav ul {
+    width:400px;
+    margin:auto;
+}
+.nav ul li {
+    list-style:none;
+
+    
+    
+    
+}
+
+.nav ul li a {
+    text-decoration:none;
+    float:left;
+    display:block;
+    padding:10px 20px;
+    color:black;
+    
+}
+
+.nav ul li a:hover {
+color: #e6b800;    
+}
+
+.pagina {
+    background-color:#ac7339;
+    width:950px;
+    min-height:1000px;
+    margin:auto;
+    padding: 20px; 
+    border-left:solid;
+    border-right:solid;
+    border-width:2px;
+    border-radius: 10px;
+}
+
+.members {
+    font-size:12px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 190px;
+}
+
+.nav a:hover {
+    color:#e6b800;
+}
+
+.tcs {
+    font-size: larger;
+}
+
+.asbc {
+    font-size: larger;
+}
+
+.bigking {
+    font-size: larger;
+}
+
+.chicago {
+    font-size: larger;
+}
+
+.bbq {
+    font-size:larger;
+}
+
+.bdc {
+    font-size:larger;
+}

@@ -1,0 +1,96 @@
+body {
+font-family: "Century Gothic"; 
+background-image:url("../afbeeldingen/bg-image.jpg");
+text-align: center;
+background-repeat:no-repeat;
+background-size:100%;
+
+}
+
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.nav {
+    height:40px;
+    background-color:#ac7339;
+    width:1140px;
+    border:solid;
+    border-width:2px;
+    margin:auto;
+    padding:10px;
+    border-radius: 10px;
+    
+    
+    
+    
+}
+
+.nav ul {
+    width:400px;
+    margin:auto;
+}
+.nav ul li {
+    list-style:none;
+
+    
+    
+    
+}
+
+.nav ul li a {
+    text-decoration:none;
+    float:left;
+    display:block;
+    padding:10px 20px;
+    color:black;
+    
+}
+
+.nav ul li a:hover {
+color: #e6b800;   
+}
+
+.pagina {
+    background-color:#ac7339;
+    width:1120px;
+    min-height:1000px;
+    margin:auto;
+    padding: 20px; 
+    border-left:solid;
+    border-right:solid;
+    border-width:2px;
+    border-radius: 10px;
+}
+
+.memebers {
+    text-decoration: none;
+}
+
+.table#lel {
+    border: 1px solid black;
+}
+
+.styled-button-1 {
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	color:#333;
+	background-color:#FA2;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+	font-family:'Century Gothic',Arial,sans-serif;
+	font-size:16px;
+	font-weight:700;
+	height:30px;
+	padding:10px 40px;
+	text-shadow:#FE6 0 1px 0
+}
+
+.a {
+    max-width: 100px;
+}

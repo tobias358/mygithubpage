@@ -1,0 +1,202 @@
+body {
+font-family: "Century Gothic"; 
+background-image:url("../afbeeldingen/bg-image.jpg");
+text-align: center;
+background-repeat:no-repeat;
+background-size:100%;
+
+}
+
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.nav {
+    height:40px;
+    background-color:#ac7339;
+    width:970px;
+    border:solid;
+    border-width:2px;
+    margin:auto;
+    padding:10px;
+    border-radius: 10px;
+    
+    
+    
+    
+    
+}
+
+.nav ul {
+    width:400px;
+    margin:auto;
+}
+.nav ul li {
+    list-style:none;
+
+    
+    
+    
+}
+
+.nav ul li a {
+    text-decoration:none;
+    float:left;
+    display:block;
+    padding:10px 20px;
+    color:black;
+    
+}
+
+.nav ul li a:hover {
+color: #e6b800;    
+}
+
+.pagina {
+    background-color:#ac7339;
+    width:950px;
+    min-height:500px;
+    margin:auto;
+    padding: 20px; 
+    border-left:solid;
+    border-right:solid;
+    border-width:2px;
+    border-radius: 10px;
+    display:inline-block;
+    border-bottom:solid black 2px;
+}
+
+.prijs-texas {
+    font-size: large;
+}
+
+.prijs-chicago {
+    font-size: large;
+}
+
+.prijs-bbq {
+    font-size:large;
+}
+.prijs-angus {
+    font-size:large;
+}
+.prijs-bigbob {
+    font-size:large;
+}
+.prijs-bacon-cheeseburger {
+    font-size:large;
+}
+
+.bovenste-titels {
+    font-size: large;
+}
+
+.eerste {
+    font-size:large;
+}
+
+.tweede {
+    font-size:large;
+}
+
+.derde {
+    font-size:large;
+}
+.vierde {
+    font-size:large;
+}
+.vijfde {
+    font-size:large;
+}
+.zesde {
+    font-size:large;
+}
+
+.hr {
+    color:black;
+}
+
+.bezorginformatie {
+    width:400px;
+    margin:auto;
+    text-align:left;
+}
+
+.styled-button-1 {
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	color:#333;
+	background-color:#FA2;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+	font-family:'Century Gothic',Arial,sans-serif;
+	font-size:16px;
+	font-weight:700;
+	height:50px;
+	padding:10px 40px;
+	text-shadow:#FE6 0 1px 0
+}
+
+.members {
+    font-size:12px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 190px;
+}
+.nav a:hover {
+    color:#e6b800;
+}
+
+.prijsTotaal {
+    min-height: 200px;
+    min-width:420px;
+    background-color:#ac7339;
+    display:inline-block;
+    position:absolute;
+    border:solid black 2px;
+    border-radius:10px;
+    margin-left:10px;
+}
+    
+.cart1 {
+    text-align: left;
+    float:left;
+    padding-left:10px;
+    display: inline-block;
+    margin-left:-40px;
+}    
+.cart1 li {
+    list-style:none;
+}
+
+.cart2 {
+    float:left;
+    display: inline-block;
+}
+.cart2 li{
+    list-style:none;
+}
+
+.cart3{
+    text-align: left;
+    float:left;
+    padding-left:10px;
+    display: inline-block;
+}
+
+.cart3 li{
+    list-style:none;
+}
+
+.hrhr{
+width:320px;
+margin:auto;
+}

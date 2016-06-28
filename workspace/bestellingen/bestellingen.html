@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html ng-app="sampleApp" lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Wayback Burgers</title>
+<link rel="stylesheet" type=text/css href="./bestellingen.css">
+<!-- AngularJS -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<!-- Firebase -->
+<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/1.1.4/angularfire.min.js"></script>
+<script src="app.js"></script>
+<script language="JavaScript">
+        var password;
+        var pass1="";
+        password=prompt("Voer wachtwoord in om door te gaan","");
+        if (password==pass1)
+        alert("Wachtwoord Correct! Klik op OK om door te gaan");
+        else
+        {
+            window.location="../home/home.html";
+        }
+        
+</script>
+
+
+</head>
+
+<body ng-controller="SampleCtrl">
+    <div class="header">
+       <div class="header content">
+         <IMG class="displayed" src="../afbeeldingen/wayback.png" style="width:470px;height:190px"> 
+            <div class="nav">
+                <ul>
+            <li><a href="../home/home.html">Home</a></li>
+            <li><a href="../burgers/burgers.html">Burgers</a></li>
+            <li><a href="../order/order.html">Order</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+       </div>
+    </div>
+<div class="pagina">
+    <h1>Lopende Bestellingen</h1>
+    
+    <table id="lel">
+    <thead>
+      <tr>
+        <th>Naam</th>
+        <th>Adres, (incl plaats)</th>
+        <th>Telefoonnummer</th>
+        <th>Extra opmerking</th>
+        <th class="burgerNum">Tcw</th>
+        <th class="burgerNum">Cs</th>
+        <th class="burgerNum">Tb</th>
+        <th class="burgerNum">Dbc</th>
+        <th class="burgerNum">Asbc</th>
+        <th class="burgerNum">Bk</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- ngRepeat: message in messages --><tr ng-repeat="message in messages" class="ng-scope">
+        <td>{{message.naam}}</td>
+        <td>{{message.adres}}</td>
+        <td>{{message.telefoonnummer}}</td>
+        <td class="a">{{message.opmerking}}</td>
+        <td>{{message.whopper}}</td>
+        <td>{{message.chicago}}</td>
+        <td>{{message.bbq}}</td>
+        <td>{{message.bacon}}</td>
+        <td>{{message.angus}}</td>
+        <td>{{message.big}}</td>
+        </select></td>
+        <td><input type="submit" ng-click="messages.$remove(message)" value="Remove" class="styled-button-1"/></td>
+      </tr><!-- end ngRepeat: message in messages -->
+    </tbody>
+  </table>
+
+</div>
